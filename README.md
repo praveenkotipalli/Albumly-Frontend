@@ -130,3 +130,4 @@ Please generate a [GitHub issue](https://github.com/codedthemes/mantis-free-reac
 - Facebook [https://www.facebook.com/codedthemes](https://www.facebook.com/codedthemes)
 - Twitter [https://twitter.com/codedthemes](https://twitter.com/codedthemes)
 "# Albumly-Frontend" 
+"# Albumly-Frontend" 
