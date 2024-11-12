@@ -1,11 +1,14 @@
 // material-ui
-import { Typography } from '@mui/material';
+// import { Typography } from '@mui/material';
 // import { useNavigate } from 'react-router-dom';
 // import { useEffect } from 'react';
 
-// project import
-import MainCard from 'components/MainCard';
+import Spline from '@splinetool/react-spline';
 
+// project import
+// import MainCard from 'components/MainCard';
+
+// import splineLanding from "./spline/splineLanding";
 // ==============================|| SAMPLE PAGE ||============================== //
 
 const Landing = () => {
@@ -17,11 +20,12 @@ const Landing = () => {
   //   }
   // }, []);
   return (
-    <MainCard title="Landing Card">
-      <Typography variant="body2">
-        Landing page
-      </Typography>
-    </MainCard>
+    <div style={{height:"screen", width:"screen"}}>
+      <div style={{width:"full", height:"708px"}}>
+      <Spline scene="https://prod.spline.design/HBtOF8WJJ2NlWq5O/scene.splinecode" />
+      
+      </div>
+    </div>
   );
 };
 

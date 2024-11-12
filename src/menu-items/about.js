@@ -1,10 +1,11 @@
 // assets
-import { ChromeOutlined, QuestionOutlined } from '@ant-design/icons';
+import { ChromeOutlined, QuestionOutlined, FolderAddOutlined } from '@ant-design/icons';
 
 // icons
 const icons = {
   ChromeOutlined,
-  QuestionOutlined
+  QuestionOutlined,
+  FolderAddOutlined
 };
 
 // ==============================|| MENU ITEMS - SAMPLE PAGE & DOCUMENTATION ||============================== //

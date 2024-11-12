@@ -10,7 +10,7 @@ const icons = {
 
 const album = {
   id: 'album',
-  title: 'Home',
+  title: 'Albums',
   type: 'group',
   children: [
     {

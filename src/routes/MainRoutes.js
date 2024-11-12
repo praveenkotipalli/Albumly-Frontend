@@ -5,6 +5,11 @@ import Loadable from 'components/Loadable';
 import MainLayout from 'layout/MainLayout';
 import AlbumPage from 'pages/albums/albums';
 import Landing from 'pages/landing/landing';
+import AddAlbumForm from 'pages/albums/addAblum';
+import AlbumShowPage from 'pages/albums/albumShow';
+import AlbumUpload from 'pages/albums/albumUpload';
+// import PhotosShowPage from 'pages/albums/albums/photoGrid';
+// import PhotoPage from 'pages/albums/photos/photos';
 // import { element } from 'prop-types';
 // import path from 'path';
 // import { element } from 'prop-types';
@@ -33,6 +38,18 @@ const MainRoutes = {
     {
       path: '/landing-page',
       element: <Landing />
+    },
+    {
+      path: '/addAlbum-page',
+      element: <AddAlbumForm />
+    },
+    {
+      path: '/album/show',
+      element: <AlbumShowPage />
+    },
+    {
+      path: '/album/upload',
+      element: <AlbumUpload />
     }
   ]
 };
